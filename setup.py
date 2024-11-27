@@ -19,6 +19,6 @@ setup(
     version = "0.0.1",
     author = "Manav Mahesh Sanger",
     author_email = "communicate.manav@gmail.com",
-    install_requires = get_requirements(),
+    install_requires = get_requirements("requirements_dev.txt"),
     packages = find_packages()
 )
